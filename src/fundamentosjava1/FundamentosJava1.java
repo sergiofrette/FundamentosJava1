@@ -44,7 +44,43 @@ public class FundamentosJava1 {
         else {
             System.out.println("Es menor de 18");
         }
-        
-    }
-    
+         
+        System.out.println("BUCLE FOR");
+        //el bucle FOR se utiliza cuando ya sabemos de antemano cuantas veces 
+        //queremos que se ejecute un bloque de codigos
+        /*
+        fot (inicializacion; condicion; actualizacion)
+         BLOQUE DE CODIGO
+        }
+        */
+      for (int i = 0; i < 10; i++)  {
+          System.out.println("Numero: " + i);
+      }
+     //crear un bucle  que inicie en 1 y me muestre hasta el numero 5
+     for (int i = 1; i <= 5; i++)
+            System.out.println("Numero: " + i);
+     
+    //Estudiar estructura de un arreglo, como acceder, como agregar y borrar en JAVA 
+        System.out.println("---------------------");
+        int [] numeros = {1,2,3,4,5};
+        for (int j = 0; j <numeros.length; j++) {
+            System.out.println("Elemento " + j +": " + numeros [j]);
+    }  
+        System.out.println("---------------");
+        System.out.println("BUCLE WHILE");
+        /* El bucle while se utiliza cuando no sabemos de antemano cuantas veces 
+        debe ejecutarse el bloque de codigo; depende de una condicion para detenerse
+    */
+    /*
+        while(condicion) {
+        BLOQUE DE CODIGO
+        }
+        */
+        int contador = 1;
+        while(contador <= 5) {
+            System.out.println("Numero: " + contador);
+            contador++;
+        }
+            
+        }
 }
